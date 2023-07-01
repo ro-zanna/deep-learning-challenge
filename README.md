@@ -28,4 +28,6 @@ In this initial run, we saw an accuracy score of 73%, which was slightly below o
 
 In the second trial, we added the organizations' 'Name' feature back in, without the EIN - as organizations had multiple EINs (with the highest amount being over 1,200 EINs just for one organization). That level of detail in data would have added noise to our model and possibly skewed the accuracy of prediction. Using the same model on this new dataset returned a 96% accuracy.
 
+Other Modeling Possibilities
 
+Considering the dataset and problem we're trying to solve, another ML model that could be used is random forests that combine multiple decision trees to handle nonlinear and high-dimensional data. Ensemble methods can improve accuracy, reduce overfitting, and provide robustness to different types of data.
